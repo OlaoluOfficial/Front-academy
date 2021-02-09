@@ -5,6 +5,7 @@ p {
     font-family:Roboto;
 }
 .navbar {
+    position: fixed;
     font-family: Poppins;
     border: 0;
     background-color: white;
