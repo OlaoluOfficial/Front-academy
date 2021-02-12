@@ -28,7 +28,14 @@ sr.reveal('#test-head', {
 sr.reveal('.testimonial div', {
     duration: 2000,
     origin: 'bottom'
-
+});
+sr.reveal('#con-form', {
+    duration: 2000,
+    origin: 'bottom'
+});
+sr.reveal('#reg-form', {
+    duration: 2000,
+    origin: 'bottom'
 });
 
 /*

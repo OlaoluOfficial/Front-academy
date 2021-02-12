@@ -27,7 +27,7 @@ p {
 #show1 img {
     width: 90%;
 }
-#show1 .show-right {
+.show-right {
     margin-top: 90px;
 }
 #show2 img {
