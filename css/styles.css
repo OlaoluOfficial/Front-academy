@@ -17,8 +17,12 @@ p {
     color: black;
 
 }
-#show1 {
+#show1, #abt-show1, #reg-show1 {
     margin-top: 30px;
+}
+.botton{
+    text-align: center;
+    padding-top: 10px;
 }
 #show1 img {
     width: 90%;
@@ -32,6 +36,33 @@ p {
 #show3 img {
     width: 90%;
 }
+
+#reg-show1 img{
+    width: 90%;
+}
+
+#reg-show3 img {
+    width: 90%;
+}
+#reg-head {    
+    text-align: center;
+    margin-top: 50px;
+}
+
+#reg-form {
+    border: solid 2px #f1f1f1;
+    background-color: #f1f1f1;
+    padding: 15px;
+}
+#con-form {
+    margin-top: 20px;
+    border: solid 2px #f1f1f1;
+    background-color: #f1f1f1;
+    padding: 15px;
+}
+
+
+
 #test-head {
     text-align: center;
     margin-top: 50px;

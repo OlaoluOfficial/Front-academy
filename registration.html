@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Registration</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;300;400;500&family=Poppins:wght@300;400;500;600&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://unpkg.com/scrollreveal"></script>
+    </head>
+    <body>
+        <!-- nav -->
+        <div id="wrap" class="container">
+            <nav id="tophead" class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container">
+                <a class="navbar-brand navhead" href="index.html">Front Academy</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            <div class="collapse  navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto me-auto mb-2 mb-lg-0">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Menu
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="index.html">Home</a></li>
+                    <li><a class="dropdown-item active" href="#">Registration</a></li>
+                    <li><a class="dropdown-item" href="contact.html">Contact</a></li>
+                    <li><a class="dropdown-item" href="about.html">About</a></li>
+                    <li><a class="dropdown-item" href="#">Testimonial</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Upload your Testimonials</a></li>
+                    </ul>
+                </li>
+                </ul>
+            </div>            
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto me-auto mb-2 mb-lg-0">
+                  
+                  <li class="nav-item">
+                    <a class="nav-link" href="#footer">Go Down</a>
+                  </li>
+                </ul>
+              </div>
+              
+            </div>
+          </nav>
+
+          <!-- main -->
+
+          <div class="container">
+            <section id="reg-show1">
+                <div>
+                    <div class="row">
+                        <div class="col-md-6 col-sm-6 container">
+                            <div class="show-left">
+                                <img src="img/pexels-photo-5456377.jpeg" alt="...">
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-6 container">
+                            <div class="show-right">
+                                <h1>Learn from home</h1>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                     Odio provident dolorem non eum labore dolores autem iste dicta debitis neque facilis ducimus voluptates
+                                     quis eaque nulla 
+                                     minus harum, cum dignissimos.
+                                </p>
+                                <br>
+                            </div>
+                            <div class="show-btn">
+                                <a class="btn btn-primary btn-sm" role="button">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <hr>
+            <div id="reg-head">
+                <h2>Register with us</h2>
+            </div>
+            <div id="reg-form">
+                <form class="container">
+                            <label for="personName">Name:</label>
+                            <div class="row">
+                                <div class="col">
+                                    <input type="text" class="form-control" placeholder="First Name">
+                                </div>
+                                <div class="col">
+                                    <input type="text" class="form-control" placeholder="Last Name">
+                                </div> 
+                                <hr>
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputEmail">Email address</label>
+                                <input type="email" class="form-control" id="exampleInputEmail" aria-describedby="emailHelp" placeholder="Email email">
+                                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputPassword1">Password</label>
+                                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                                <small id="emailHelp" class="form-text text-muted">Must be 8-20 characters long</small>
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleFormControlSelect1">Gender</label>
+                                <select class="form-control" id="exampleFormControlSelect1">
+                                    <option selected>Choose...</option>
+                                    <option>Male</option>
+                                    <option>Female</option>
+                                    <option>I prefer not to say</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="validationDefault04">Phone</label>
+                                <input type="text" class="form-control" id="validationDefault04" placeholder="Enter phone number" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleFormControlSelect1">Training mode</label>
+                                <select class="form-control" id="exampleFormControlSelect1">
+                                    <option selected>Choose...</option>
+                                    <option>Online</option>
+                                    <option>Physical</option>
+                                    <option>Let me think about it</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleFormControlSelect1">Country</label>
+                                <select class="form-control" id="exampleFormControlSelect1">
+                                    <option selected>Choose...</option>
+                                    <option>Nigeria</option>
+                                    <option>Canada</option>
+                                    <option>USA</option>
+                                    <option>Kenya</option>
+                                    <option>South africa</option>
+                                    <option>Burkina-Fase</option>
+                                    <option>Dubai</option>
+                                    <option>UK</option>
+                                    <option>Paraguay</option>
+                                    <option>Afghanistan</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleFormControlInput1">State</label>
+                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="State">
+                            </div>
+                            <fieldset>
+                                <div class="row">
+                                    <legend class="col-form-label col-sm-2 pt-0"> Are you an existing customer?</legend>
+                                    <div class="col-sm-10">
+                                        <div class="form-check">
+                                            <input type="radio" name="gridRadios" id="gridRatios1" value="option1" class="form-check-input">
+                                            <label class="form-check-label" for="gridRatios1">Yes</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input type="radio" name="gridRadios" id="gridRatios1" value="option1" class="form-check-input">
+                                            <label class="form-check-label" for="gridRatios1">No</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </fieldset>
+                            
+                            
+                            <div class="form-group">
+                                <label for="exampleFormControlSelect1">Select Exam</label>
+                                <select class="form-control" id="exampleFormControlSelect1">
+                                    <option>Select</option>
+                                    <option>IELTS</option>
+                                    <option>TOEFL</option>
+                                    <option>GMAT</option>
+                                    <option>GRE</option>
+                                </select>
+                            </div>
+                        
+                            <div class="form-check">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                <label class="form-check-label" for="exampleCheck1">Check me out</label>    
+                            </div>
+                            <div class="botton">
+                                <button type="submit" class="btn btn-primary">Submit</button>
+                            </div>
+                </form>
+            </div>
+
+            <hr>
+
+            
+
+                <section id="reg-show3">
+                    <div>
+                        <div class="row">
+                            <div class="col-md-6 col-sm-6 container">
+                                <div class="show-left">
+                                    <img src="img/pexels-photo-5905621.jpeg" alt="...">
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-6 container">
+                                <div class="show-right">
+                                    <h1>Learn in person</h1>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                         Odio provident dolorem non eum labore dolores autem iste dicta debitis neque facilis ducimus voluptates
+                                         quis eaque nulla 
+                                         minus harum, cum dignissimos.
+                                    </p>
+                                    <br>
+                                </div>
+                                <div class="show-btn">
+                                    <a class="btn btn-primary btn-sm" role="button">Read more</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+            </div>
+        
+            <hr>
+
+            <!-- footer -->
+
+            <footer class="container-fluid" id="footer">
+                  <div>
+                      <a class="navbar-brand navhead" href="index.html">Front Academy</a>
+                      <hr>
+                      <a class="nav-link" href="about.html">About</a>
+                      <a class="nav-link" href="contact.html">Contact</a>
+                      <a class="nav-link" href="#">Testimonials</a>
+                      <a class="nav-link" href="#tophead">Go Top</a>
+                  </div>
+                  <hr>
+                  <div id="media">
+                      <a href="instagram.com/OlaoluOfficial"><i class="fa fa-instagram" aria-hidden="true"></i></a> 
+                      <a href="twitter.com/OlaoluOfficial_"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                      <a href="facebook.com/OlaoluOfficial"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+                      <a href="github.io/olaoluofficial"></a><i class="fa fa-github" aria-hidden="true"></i></a>
+                      <a href="youtube.com"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+                      <a href="pinterest.com"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a>
+                      <a href="yahoo.com"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
+                      <a href="wa.me/+2348189389584"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+                  </div>
+                  <hr>
+                  <div id="important">
+                      <a href="#">Terms of Use</a>
+                      |
+                      <a href="#">Policy</a>
+                      |
+                      <a href="#">License</a>
+                      |
+                      <a href="#">Imprint</a>
+                  </div>
+                  <hr>
+                  <div id="copyright">
+                      <p>Front Academy &copy;Copyright 2021 | Attaining Excellence</p>
+                  </div>
+            </footer>
+
+          </div>
+
+
+          <script src="script.js"></script>
+        <script src="bootstrap.js"></script>
+        <script
+            src="https://code.jquery.com/jquery-3.5.1.js"
+            integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+            crossorigin="anonymous">
+        </script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+ 
+      
+    </body>
+</html>
